@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Poppins', sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: purple;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 50%;
+  row-gap: 5px;
+  column-gap: 5px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  /* From https://css.glass */
+  background: rgba(0, 117, 236, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(0.8px);
+  border: 1px solid rgba(0, 117, 236, 0.47);
+}
+
+.navbar {
+  justify-content: center;
+  align-self: center;
+  width: 500px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50px;
+  background-color: white;
+  border-width: 1px;
+}
+
+.headerspacer {
+  /* width: 50px;
+    height: 50px;
+    border-style: solid; */
+}
+
+.title {
+  width: 100%;
+}
+
+.main {
+  display: grid;
+  border-style: solid;
+  border-color: red;
+  /* row-gap: 50px */
+}
+
+.temp {
+  border-style: solid;
+  border-color: red;
+}
+
+.mainspacer {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-color: pink;
+
+}
+
+.box {
+  background-color: blue;
+  border-style: solid;
+  border-color: black;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  color: #ffaa00;
+  scale: 1;
+  /* background-color: #0093E9;
+    background-image: linear-gradient(90deg, #0093E9 31%, #ffe902 100%); */
+}
+
+li {
+  display: inline;
+}
+
+
+
+li:last-child {
+  border-right: none;
+
+}
+
+li a {
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-align: center;
+  color: #00a1ff;
+  opacity: 100%;
+}
