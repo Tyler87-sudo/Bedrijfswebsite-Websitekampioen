@@ -83,31 +83,81 @@ img {
 }
 
 .main {
-  display: grid;
-  border-style: solid;
-  border-color: red;
+  display: flex;
+  flex-direction: row;
   /* row-gap: 50px */
 }
 
-.temp {
-  border-style: solid;
-  border-color: red;
-}
-
-.mainspacer {
+/* .mainspacer {
   height: 50px;
   width: 50px;
   border-style: solid;
-  border-color: pink;
 
-}
+} */
 
-.box {
+.box1 {
   background-color: blue;
   border-style: solid;
   border-color: black;
+  position: relative;
+  float: right;
+  top: 50px;
+  width: 30%;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  background: rgba(0, 117, 236, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(0.8px);
+  border: 1px solid rgba(0, 117, 236, 0.47);
 }
 
+.box2 {
+  background-color: blue;
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  top: 300px;
+  width: 30%;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  float: left;
+  background: rgba(0, 117, 236, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(0.8px);
+  border: 1px solid rgba(0, 117, 236, 0.47);
+}
+
+h2 {
+  padding-left: 100px;
+}
+
+.footer {
+  position: relative;
+  top: 750px;;
+  background: rgba(0, 117, 236, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(0.8px);
+  border: 1px solid rgba(0, 117, 236, 0.47);
+  width: 100%;
+  height: 120px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.footertext {
+  margin: 0;
+  display:inline;
+  color: black;
+  padding: 50px;
+  scale: 2;
+}
+
+.innertext {
+  padding-left: 15px;
+}
 
 ul {
   list-style-type: none;
@@ -120,6 +170,29 @@ ul {
   scale: 1;
   /* background-color: #0093E9;
     background-image: linear-gradient(90deg, #0093E9 31%, #ffe902 100%); */
+}
+
+.navtext {
+  margin: 0;
+  display:inline;
+  color: black;
+ }
+
+.navtext:hover {
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.infobuttons {
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.infobuttoncontainer {
+  position: relative;
+  justify-content: center;
+  align-self: center;
 }
 
 li {
