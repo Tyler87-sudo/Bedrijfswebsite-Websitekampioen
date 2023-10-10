@@ -62,7 +62,7 @@ img {
 }
 
 .navbar {
-  width: 500px;
+  width: 100%;
   border-style: solid;
   border-color: black;
   border-radius: 50px;
@@ -229,3 +229,43 @@ h1 {
   color: #00a1ff;
   opacity: 100%;
 }
+
+.arrow {
+  height: 15px;
+  align-self: center;
+  stroke: #111111;
+  margin: 0 auto;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .top-nav {
+    display: none;
+  }
+  .arrow {
+    display: block;
+  }
+  .responsive {
+    display: block;
+    transition: 0.3s
+  }
+}
+
+@media screen and (max-width: 850px) {
+  h1  {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1  {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  h1  {
+    font-size: 8px;
+  }
+}
+
