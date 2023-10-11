@@ -9,6 +9,12 @@ function myFunction() {
 
   function openHeader() {
       let x = document.getElementById("top-nav")
+      let c = document.getElementById("arrow")
+      if (c.className === "arrow") {
+          c.className = "arrowclicked"
+      } else {
+          c.className = "arrow"
+      }
     if (x.className === "top-nav") {
         x.className = "responsive"
     } else {

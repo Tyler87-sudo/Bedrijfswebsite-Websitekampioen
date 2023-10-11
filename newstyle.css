@@ -185,8 +185,8 @@ ul {
  }
 
 .navtext:hover {
-  background-color: lightblue;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 60px -16px teal;
 }
 
 .infobuttons {
@@ -238,6 +238,42 @@ h1 {
   display: none;
 }
 
+.arrowclicked {
+  height: 25px;
+  display: block;
+  padding-bottom: 5%;
+  align-self: center;
+  stroke: #111111;
+  margin: 0 auto;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.intro {
+  align-self: start;
+  grid-column-start: span 2;
+  margin-top: 1%;
+}
+
+.empty {
+  grid-row-start: 3;
+  grid-column-start: span 2;
+}
+
+.successverhalen {
+  grid-column-start: span 2;
+}
+
+.empty_spacer2 {
+  grid-column-start: ;
+  border: 1px blue solid;
+}
+
 @media screen and (max-width: 800px) {
   .top-nav {
     display: none;
@@ -247,7 +283,13 @@ h1 {
   }
   .responsive {
     display: block;
-    transition: 0.3s
+    transition: 2s
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .arrowclicked {
+    display: none
   }
 }
 

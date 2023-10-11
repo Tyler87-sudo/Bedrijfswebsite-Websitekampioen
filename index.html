@@ -15,10 +15,12 @@
         <div class="title">
             <img src="logo.png" style="height: 100px; width: 100px; display: block; margin: 0 auto; padding: 0;">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <a onClick="openHeader()"><img class="arrow" src="Group%202.png"></a>
+            <a onClick="openHeader()"><img id="arrow" class="arrow" src="Group%202.png"></a>
             </svg>
             <div class="top-nav" id="top-nav">
-                <ul class="menu">
+        <!--    add popping out effect on hover !!-->
+        <!--                add  small lines between each list element-->
+                <ul class="menu" style="border: 1px solid black; border-radius: 15px; width: 50%; display: block; margin: 0 auto; background-color: white;">
                     <li> <a href="index.html" target="" style="text-decoration:none"><p class="navtext">Home</p></a></li>
                     <li> <a href="diensten.html" target="" style="text-decoration:none"><p class="navtext">Diensten</p></a></li>
                     <li> <a href="overons.html" target="" style="text-decoration:none"><p class="navtext">Over Ons</p></a></li>
@@ -26,43 +28,64 @@
                 </ul>
             </div>
         </div>
-
     </header>
 
     <main class="main">
+        <div class="intro" style="border: 1px solid red;">
+            <div class="titledivider">
+                <h1 style="">De Nummer 1 in website designs!</h1>
+                <img src="Line%2015.png" style="width: 50%; display: block; margin: 0 auto; height: 3px">
+            </div>
+            <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+        </div>
+        <div class="empty_spacer2"></div>
+        <div class="empty_spacer1" style="border: 1px solid darkblue"></div>
+        <div style="border: 1px solid blue">
+            <h1 style="border-bottom: 5px solid pink">Onze klanten beoordelen ons met een:</h1>
+            <p>Hoi</p>
+        </div>
+        <div class="successverhalen" style="border: 1px solid green">
+            <h1 style="border-bottom: 5px solid black">Successverhalen</h1>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
         <!-- <div class="mainspacer"></div> -->
     </main>
 
-    <div class="box2">
-        <h2 class="verhaal">De Nummer 1 in webdesigns!</h2>
-        <p class="innertext">Lorem ipsum dolor sit amet. Qui consequatur quos sit enim facere ab officia voluptatem quo
-            excepturi deserunt. Aut odit cumque non tempore sequi aut placeat officia eum magni fugiat sit fuga libero?
-            Qui dignissimos iusto et commodi voluptas est suscipit repellat a tenetur voluptatum non sapiente natus. Qui
-            modi omnis eos aliquam porro qui ullam numquam non ipsa unde non quaerat maxime aut adipisci ipsa! Eos
-            voluptas quaerat eos alias possimus et dolorem eveniet eum molestiae consequatur qui vitae sunt eos
-            perferendis velit in eligendi galisum.
-            Hic voluptatem praesentium id corrupti voluptates eum aperiam ratione in adipisci labore! Et facilis
-            doloribus rem rerum voluptates aut modi optio.
-        </p>
-    </div>
+<!--    <div class="box2">-->
+<!--        <h2 class="verhaal">De Nummer 1 in webdesigns!</h2>-->
+<!--        <p class="innertext">Lorem ipsum dolor sit amet. Qui consequatur quos sit enim facere ab officia voluptatem quo-->
+<!--            excepturi deserunt. Aut odit cumque non tempore sequi aut placeat officia eum magni fugiat sit fuga libero?-->
+<!--            Qui dignissimos iusto et commodi voluptas est suscipit repellat a tenetur voluptatum non sapiente natus. Qui-->
+<!--            modi omnis eos aliquam porro qui ullam numquam non ipsa unde non quaerat maxime aut adipisci ipsa! Eos-->
+<!--            voluptas quaerat eos alias possimus et dolorem eveniet eum molestiae consequatur qui vitae sunt eos-->
+<!--            perferendis velit in eligendi galisum.-->
+<!--            Hic voluptatem praesentium id corrupti voluptates eum aperiam ratione in adipisci labore! Et facilis-->
+<!--            doloribus rem rerum voluptates aut modi optio.-->
+<!--        </p>-->
+<!--    </div>-->
 
-    <div class="box1">
-        <h2 class="reviews">Zo beoordelen anderen onze website</h2>
-        <p class="innertext">Lorem ipsum dolor sit amet. Qui consequatur quos sit enim facere ab officia voluptatem quo
-            excepturi deserunt. Aut odit cumque non tempore sequi aut placeat officia eum magni fugiat sit fuga libero?
-            Qui dignissimos iusto et commodi voluptas est suscipit repellat a tenetur voluptatum non sapiente natus. Qui
-            modi omnis eos aliquam porro qui ullam numquam non ipsa unde non quaerat maxime aut adipisci ipsa! Eos
-            voluptas quaerat eos alias possimus et dolorem eveniet eum molestiae consequatur qui vitae sunt eos
-            perferendis velit in eligendi galisum.
-            Hic voluptatem praesentium id corrupti voluptates eum aperiam ratione in adipisci labore! Et facilis
-            doloribus rem rerum voluptates aut modi optio.</p>
-    </div>
+<!--    <div class="box1">-->
+<!--        <h2 class="reviews">Zo beoordelen anderen onze website</h2>-->
+<!--        <p class="innertext">Lorem ipsum dolor sit amet. Qui consequatur quos sit enim facere ab officia voluptatem quo-->
+<!--            excepturi deserunt. Aut odit cumque non tempore sequi aut placeat officia eum magni fugiat sit fuga libero?-->
+<!--            Qui dignissimos iusto et commodi voluptas est suscipit repellat a tenetur voluptatum non sapiente natus. Qui-->
+<!--            modi omnis eos aliquam porro qui ullam numquam non ipsa unde non quaerat maxime aut adipisci ipsa! Eos-->
+<!--            voluptas quaerat eos alias possimus et dolorem eveniet eum molestiae consequatur qui vitae sunt eos-->
+<!--            perferendis velit in eligendi galisum.-->
+<!--            Hic voluptatem praesentium id corrupti voluptates eum aperiam ratione in adipisci labore! Et facilis-->
+<!--            doloribus rem rerum voluptates aut modi optio.</p>-->
+<!--    </div>-->
 
-    <footer class="footer">
-        <p class="footertext">Contact</p>
-        <p class="footertext">Telefoonnummer</p>
-        <p class="footertext">Email</p>
-    </footer>
+<!--    <footer class="footer">-->
+<!--        <p class="footertext">Contact</p>-->
+<!--        <p class="footertext">Telefoonnummer</p>-->
+<!--        <p class="footertext">Email</p>-->
+<!--    </footer>-->
 </div>
 
 <script src="js/script.js"></script>
