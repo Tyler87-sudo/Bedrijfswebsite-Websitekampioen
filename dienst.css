@@ -1,0 +1,29 @@
+.dienst{
+    margin-left:10%;
+    text-align: left;
+    margin-right: 10%;
+  }
+  
+  .vak{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 250px;
+    border: 100% black;
+    padding: 50px;
+    margin-left: 10%;
+    background-color: #EFF4F7;
+    float: left;
+  }
+  
+  .planad{
+    text-align: right; 
+    margin-right:10%; 
+    margin-left: 10%;
+  }
+  .marketing{
+    margin-left: 10%;
+    text-align: left;
+    margin-right: 10%;
+  }

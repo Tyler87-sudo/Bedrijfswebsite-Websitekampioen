@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="/thumbnail.png" />
     <link href='/thumbnail.png' rel='icon' />
     <link rel="stylesheet" href="https://use.typekit.net/hwd2ljm.css">
+    <link rel="stylesheet" href="contact.css">
     <style>
         .checked {
             color: orange;
@@ -19,48 +20,35 @@
 </head>
 
 <body>
-    <header class="header">
-        <!-- <div class="headerspacer"></div> -->
-        <div class="title">
-            <h1>De WebsiteKampioen</h1>
-            <ul class="navbar">
-                <li>
-                    <a href="index.html" target="" style="text-decoration:none">
-                        <!-- <button>Home</button> -->
-                        <p class="navtext">Home</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="diensten.html" target="" style="text-decoration:none">
-                        <!-- <button>Diensten</button> -->
-                        <p class="navtext">Diensten</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="overons.html" target="" style="text-decoration:none">
-                        <!-- <button>Over ons</button> -->
-                        <p class="navtext">Over Ons</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html" target="" style="text-decoration:none">
-                        <p class="navtext">Contact</p>
-                    </a>
-                </li>
-        </div>
+    <div class="container">
+        <header class="header">
+            <!-- <div class="headerspacer"></div> -->
+            <div class="title">
+                <img src="logo.png" style="height: 100px; width: 100px; display: block; margin: 0 auto; padding: 0;">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <a onClick="openHeader()"><img class="arrow" src="Group%202.png"></a>
+                </svg>
+                <div class="top-nav" id="top-nav">
+                    <ul class="menu">
+                        <li> <a href="index.html" target="" style="text-decoration:none"><p class="navtext">Home</p></a></li>
+                        <li> <a href="diensten.html" target="" style="text-decoration:none"><p class="navtext">Diensten</p></a></li>
+                        <li> <a href="overons.html" target="" style="text-decoration:none"><p class="navtext">Over Ons</p></a></li>
+                        <li> <a href="contact.html" target="" style="text-decoration:none"><p class="navtext">Contact</p></a></li>
+                    </ul>
+                </div>
+            </div>
+    
+        </header>
 
-    </header>
-
-    <main class="main">
-        <!-- <div class="mainspacer"></div> -->
+    <main>
+        <br><br><br>
+       <h1 style="text-align: center; text-decoration: underline;">Neem contact op</h1>
+       <div class="contactblok">
+        
+       </div>
     </main>
 
     
-    <footer class="footer">
-        <p class="footertext">Contact</p>
-        <p class="footertext">Telefoonnummer</p>
-        <p class="footertext">Email</p>
-    </footer>
 
 </body>
 
